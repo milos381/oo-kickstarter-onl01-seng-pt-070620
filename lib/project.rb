@@ -12,7 +12,7 @@ def add_backer(backer)
 
 
   @backers << backer
-  backer.back_project << self
+  backer.back_projects << self
   #binding.pry
 end
 
