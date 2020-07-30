@@ -14,6 +14,7 @@ class Backer
 
     @backed_projects << project
     #binding.pry
+    project.backers << self
   end
 
 
